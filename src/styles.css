@@ -1,10 +1,45 @@
-body{
-    text-align: center;
+:root{
+    --main-color:#272142;
+--first-font-family:'Poppins', sans-serif;
+--second-font-family: 'Playfair Display', serif;
+    }
 
+
+.hero{
+    background-color: #F9F7FE;
+     text-align: center;
+     padding: 160px 20px;
 }
-h1{
-    font-family: 'Playfair Display', serif;
+
+.hero h1{
+    
+    font-weight: bold;
+    font-size: 96px;
+    font-family: var(--second-font-family);
 }
-p{
-    font-family: 'Poppins', sans-serif;
+
+.hero p{
+     font-family: var(--first-font-family);
+     font-size: 36px;
+     font-weight: bold;  
+     margin: 0; 
+     color:var(--main-color);  
+}
+
+.hero h2{
+    font-family: var(--first-font-family);
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 2;
+    color:var(--main-color);  
+}
+.btn-contact{
+    background: #6C63FF;
+border-radius: 4px;
+color:#fff ;
+text-decoration: none;
+padding: 15px 30px;
+font-size: 18px;
+line-height: 27px;
+font-family: var(--first-font-family) ;
 }
