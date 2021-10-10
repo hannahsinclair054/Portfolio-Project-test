@@ -44,8 +44,21 @@ font-size: 18px;
 line-height: 27px;
 font-family: var(--first-font-family) ;
 }
+.btn-outline:hover{
+    color: var(--btn-color);
+    font-weight: bolder;
+    border:2px solid var(--btn-color);
+}
+.btn-contact:hover{
+color:var(--btn-color);
+font-weight: bolder;
+background-color: #fff;
+border:solid 2px var(--btn-color);
+
+}
 h2{
     font-size: 64px;
+    font-family: var(--second-font-family);
 }
 p{
     font-weight: normal;
@@ -62,7 +75,7 @@ padding: 15px 30px;
 font-size: 18px;
 line-height: 27px;
 font-family: var(--first-font-family) ;
-border:solid #6C63FF 1px;
+border:solid 1px var(--btn-color);
 }
 .project-description{
    padding: 120px 60px; 
@@ -72,7 +85,7 @@ border:solid #6C63FF 1px;
    padding: 0; 
    text-align: center;   
    } 
-   h1{
+  .hero h1{
        font-size: 44px;
        line-height: 1.5;
    }
