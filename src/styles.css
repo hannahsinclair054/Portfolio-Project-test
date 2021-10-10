@@ -2,7 +2,7 @@
     --main-color:#272142;
 --first-font-family:'Poppins', sans-serif;
 --second-font-family: 'Playfair Display', serif;
-    }
+   --btn-color:#6C63FF; }
 
 
 .hero{
@@ -16,6 +16,7 @@
     font-weight: bold;
     font-size: 96px;
     font-family: var(--second-font-family);
+    line-height: 1.5;
 }
 
 .hero p{
@@ -34,7 +35,7 @@
     color:var(--main-color);  
 }
 .btn-contact{
-    background: #6C63FF;
+    background:var(--btn-color);
 border-radius: 4px;
 color:#fff ;
 text-decoration: none;
@@ -42,4 +43,45 @@ padding: 15px 30px;
 font-size: 18px;
 line-height: 27px;
 font-family: var(--first-font-family) ;
+}
+h2{
+    font-size: 64px;
+}
+p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.btn-outline{
+     background:#fff;
+border-radius: 4px;
+color:var(--btn-color) ;
+text-decoration: none;
+padding: 15px 30px;
+font-size: 18px;
+line-height: 27px;
+font-family: var(--first-font-family) ;
+border:solid #6C63FF 1px;
+}
+.project-description{
+   padding: 120px 60px; 
+}
+@media (max-width:900px){
+   .project-description{
+   padding: 0; 
+   text-align: center;   
+   } 
+   h1{
+       font-size: 44px;
+       line-height: 1.5;
+   }
+   h2{
+       font-size: 44px;
+   }
+
+   .hero{
+   
+     padding: 80px 20px;
+}
 }
