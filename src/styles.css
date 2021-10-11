@@ -42,13 +42,25 @@
     line-height: 2;
     color:var(--main-color);  
 }
-.content-container h1{
+.content h1{
     font-size: 64px;
     line-height: 80px;
+    font-family: var(--second-font-family);
 }
-.content-container h2{
+.content h2{
     font-size: 18px;
     font-family: var(--first-font-family);
+} 
+.content h3{
+font-size: 24px;
+font-family: var(--first-font-family);
+line-height: 1.5;
+margin: 20px 0 0;
+font-weight: bold;
+}
+.content p{
+    
+    font-size: 14px;
 }
 h2{
     font-size: 64px;
