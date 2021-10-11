@@ -2,13 +2,21 @@
     --main-color:#272142;
 --first-font-family:'Poppins', sans-serif;
 --second-font-family: 'Playfair Display', serif;
-   --btn-color:#6C63FF; }
+   --btn-color:#6C63FF; 
+}
 
 
 .hero{
     background-color: #F9F7FE;
      text-align: center;
      padding: 160px 20px;
+}
+
+.about-section{
+    padding: 160px 20px;
+}
+.about-section-content{
+    margin: 30px;
 }
 
 .hero h1{
@@ -34,7 +42,14 @@
     line-height: 2;
     color:var(--main-color);  
 }
-
+.about-section h1{
+    font-size: 64px;
+    line-height: 80px;
+}
+.about-section h2{
+    font-size: 18px;
+    font-family: var(--first-font-family);
+}
 h2{
     font-size: 64px;
     font-family: var(--second-font-family);
@@ -101,5 +116,9 @@ border:solid 2px var(--btn-color);
    .hero{
    
      padding: 80px 20px;
+}
+.about-section{
+    text-align: center;
+    padding: 0;
 }
 }
