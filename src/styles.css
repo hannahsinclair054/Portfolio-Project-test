@@ -2,7 +2,8 @@
     --main-color:#272142;
 --first-font-family:'Poppins', sans-serif;
 --second-font-family: 'Playfair Display', serif;
-   --btn-color:#6C63FF; 
+   --branding-colour:#6C63FF; 
+   --background-colour:#F9F7FE;
 }
 .logo{
     max-height: 40px;
@@ -30,10 +31,10 @@ transition: all 10ms ease-in-out;
 
 nav a:hover,
  nav li.active a{
-   color: var(--btn-color);
+   color: var(--branding-colour);
 }
 .hero{
-    background-color: #F9F7FE;
+    background-color: var(--background-colour);
      text-align: center;
      padding: 160px 20px;
 }
@@ -104,40 +105,78 @@ p{
 
 
 .btn-contact{
-    background:var(--btn-color);
+    background:var(--branding-colour);
 border-radius: 4px;
 color:#fff ;
 text-decoration: none;
 padding: 15px 30px;
 font-size: 18px;
 line-height: 27px;
-font-family: var(--first-font-family) ;
+font-family: var(--first-font-family);
+transition:all 125ms ease-in-out;
 }
 .btn-outline{
      background:#fff;
 border-radius: 4px;
-color:var(--btn-color) ;
+color:var(--branding-colour) ;
 text-decoration: none;
 padding: 15px 30px;
 font-size: 18px;
 line-height: 27px;
 font-family: var(--first-font-family) ;
-border:solid 1px var(--btn-color);
+border:solid 1px var(--branding-colour);
+transition:all 125ms ease-in-out;
 }
 
 .btn-outline:hover{
-    color: var(--btn-color);
+    color: var(--branding-colour);
     font-weight: bolder;
-    border:2px solid var(--btn-color);
+    border:2px solid var(--branding-colour);
 }
 
 .btn-contact:hover{
-color:var(--btn-color);
+color:var(--branding-colour);
 font-weight: bolder;
 background-color: #fff;
-border:solid 2px var(--btn-color);
+border:solid 2px var(--branding-colour);
+} 
+footer{
+    margin: 60px 0;
+}
+footer .contact-box{
+    background-color: var(--background-colour);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+footer .contact-box p{
+margin: 0;
+}
+footer h4{
+    font-size: 48px;
 }
 
+footer .email-link{
+text-decoration: none;
+color: #000;
+font-size: 24px;
+
+}
+footer .email-link:hover{
+ color: var(--branding-colour);   
+}
+footer .social-links a{
+margin: 0 20px;
+color: var(--branding-colour);
+background-color: var(--background-colour);
+padding: 10px 14px;
+font-size: 18px;
+border-radius: 50%;
+transition:all 100ms ease-in-out;
+}
+footer .social-links a:hover{
+  color: #fff;
+  background-color: var(--branding-colour);
+}
 @media (max-width:900px){
    .project-description{
    padding: 0; 
@@ -159,4 +198,6 @@ border:solid 2px var(--btn-color);
     text-align: center;
     padding: 0;
 }
+
+
 }
