@@ -36,11 +36,11 @@ nav a:hover,
 .hero{
     background-color: var(--background-colour);
      text-align: center;
-     padding: 160px 20px;
+     padding: 80px 20px;
 }
 
 .content-container{
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 .content{
     margin: 30px;
@@ -177,6 +177,10 @@ footer .social-links a:hover{
   color: #fff;
   background-color: var(--branding-colour);
 }
+footer .coded a{
+    color: #000;
+}
+
 @media (max-width:900px){
    .project-description{
    padding: 0; 
@@ -190,14 +194,8 @@ footer .social-links a:hover{
        font-size: 44px;
    }
 
-   .hero{
-   
-     padding: 80px 20px;
-}
 .content-container{
     text-align: center;
     padding: 0;
 }
-
-
 }
