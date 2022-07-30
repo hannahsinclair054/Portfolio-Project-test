@@ -180,7 +180,9 @@ footer .social-links a:hover{
 footer .coded a{
     color: #000;
 }
-
+footer .coded a:hover{
+    text-decoration: underline;
+}
 @media (max-width:900px){
    .project-description{
    padding: 0; 
